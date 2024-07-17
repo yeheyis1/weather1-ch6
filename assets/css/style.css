@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#current-weather, #forecast, #search-history {
+    margin-bottom: 20px;
+}
+
+#current-weather-info, #forecast-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#history-list li {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 0;
+    background: #e0e0e0;
+    border-radius: 4px;
+}
